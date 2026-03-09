@@ -1,1 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moyna Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-22 00:00+0000\n"
+"PO-Revision-Date: 2026-01-22 00:00+0000\n"
+"Last-Translator: Tawhidur Rahman Dear <tawhidurrahmandear@gmail.com>\n"
+"Language-Team: ENGLISH <tawhidurrahmandear@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Tawhidur Rahman Dear\n"
 
+
+#: functions.php:176
+msgid "Post Content (Max 160 characters):"
+msgstr ""
+
+#: functions.php:178
+msgid "You can enter up to 160 characters for this post."
+msgstr ""
+
+#: customizer-options.php:78
+msgid "Reset All Settings to Defaults"
+msgstr ""
+
+#: customizer-options.php:82
+msgid "Are you sure?"
+msgstr ""
+
+#: customizer-options.php:83
+msgid "This will reset all customizer settings to their default values. This action cannot be undone."
+msgstr ""
+
+#: customizer-options.php:86
+msgid "Yes, Reset Everything"
+msgstr ""
+
+#: customizer-options.php:90
+msgid "Cancel"
+msgstr ""
+
+#: developers/developers.php:47
+msgid "%s Developer"
+msgstr ""
+
+#: developers/developers.php:54
+msgid "%s is ideal for self-hosted Micro Blog, Community Social Network, News Headlines Publishing etc."
+msgstr ""
+
+#: developers/developers.php:61
+msgid "Live Preview"
+msgstr ""
+
+#: developers/developers.php:62
+msgid "Introduction to Theme"
+msgstr ""
+
+#: developers/developers.php:63
+msgid "Theme on WordPress.org"
+msgstr ""
+
+#: developers/developers.php:64
+msgid "Web Documentation"
+msgstr ""
+
+#: developers/developers.php:65
+msgid "Theme Developer"
+msgstr ""
+
+#: developers/developers.php:66
+msgid "Rate and Review"
+msgstr ""
+
+#: developers/developers.php:66
+msgid "Released under GPL 2.0 or later"
+msgstr ""
+
+#: developers/developers.php:82
+msgid "Security check failed."
+msgstr ""
+
+#: developers/developers.php:101
+msgid "Your email client has been opened with the feedback."
+msgstr ""
+
+#: developers/developers.php:107
+msgid "Feedback"
+msgstr ""
+
+#: developers/developers.php:113
+msgid "Your Email:"
+msgstr ""
+
+#: developers/developers.php:118
+msgid "Your Feedback:"
+msgstr ""
+
+#: developers/developers.php:123
+msgid "Submit Feedback"
+msgstr ""
