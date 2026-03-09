@@ -1,0 +1,207 @@
+/*
+Theme Name: Moyna
+Theme URI: https://store.devilhunter.net/wordpress-theme/moyna/
+Author: Tawhidur Rahman Dear
+Author URI: https://www.tawhidurrahmandear.com/
+Description: Moyna WordPress Theme is ideal for self-hosted Micro Blog, Community Social Network, News Headlines Publishing etc.
+Requires at least: 6.1
+Tested up to: 6.9
+Requires PHP: 7.4
+Version: 3.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: moyna
+Tags: blog, news, one-column, custom-colors, custom-header, microformats, theme-options, translation-ready
+*/
+
+
+/* Global Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Ensures padding and borders don't cause overflow */
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Main container (this will wrap all content) */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EEF3FA;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+
+.site-icon-wrapper {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.site-icon {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.site-title {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%; /* Ensure header takes up full width */
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 9999; /* Ensure header is above other content */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: none;
+}
+
+/* Post Styles */
+.post {
+    margin: 20px!important; /* Add bottom margin for gap between status items */
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.post .author-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post .author-info img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.post p {
+    margin: 0;
+}
+
+.post small {
+    margin-top: 10px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination .current {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+/* Hide the 'Pages' text and the pagination numbers on the homepage */
+body.home .page-links,
+body.home .post-page-numbers {
+    display: none;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%; /* Ensure footer takes full width */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust container width on smaller screens */
+    .container {
+        width: 95%; /* Allow for more padding on smaller screens */
+    }
+
+    /* Header navigation adjustment */
+    header nav {
+        display: block;
+        margin-top: 10px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    /* Pagination styling for smaller screens */
+@media (max-width: 768px) {
+    .post {
+        flex-direction: column;
+        padding: 15px;
+    }
+}
+}
+
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+.bypostauthor {}
+.alignright {}
+.alignleft {}
+.aligncenter {}
